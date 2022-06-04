@@ -1,0 +1,11 @@
+input,
+label {
+    margin: .4rem 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}

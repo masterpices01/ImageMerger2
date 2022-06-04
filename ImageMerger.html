@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>ImageMerger</title>
+<meta charset="uft-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Image Merger</h1>
+        <p>this website is designed for you to combine to image together based on two urls, 
+            mainly designed for combine role information card and relative role drawing</p>
+        <p>put your first image url</p>
+        <input type="text" id="first" name="f" size="60"><br>
+        <p>put your second image url</p>
+        <input type="text" id="second" name="s" size="60">
+        <input id="btn" type="button" value="Get Image" onclick="getImg();" />
+      </form>
+    
+    <canvas id="myCanvas" width="1080" height="1350" style="border:1px solid #d3d3d3;"></canvas>
+    
+    <script src="javascript.js"></script>
+</body>
